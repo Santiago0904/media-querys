@@ -170,22 +170,86 @@ flex-direction: column;
     max-width: 80vh;
 }
 
+#pricing{
+    display: flex;
+    justify-content:center;
+    margin-top: -20vh;
+    margin-right: 30px;
+}
+#startup{
+    margin-top: 20vh;
+    line-height: 30px;
+    text-align: center;
+    padding-right: 10vh;
+
+}
+#premium{
+    margin-top: 20vh;
+    line-height: 30px;
+    text-align: center;
+    background-color: #192440;
+    color: white;
+    border-radius: 3px;
+    width: 40vh;
+}
+#professional{
+    margin-top: 20vh;
+    line-height: 30px;
+    text-align: center;
+    padding-left: 10vh;
+}
+span{
+    font-size: 100px;
+}
+#textstartup{
+    padding: 5vh;
+}
+#tittlepricing{
+ font-size: 5vh;
+   margin-left: 77vh;
+   margin-top: 10vh;
+}
+#buttomtarjet{
+    margin-top: 40px;
+ width: 15vh;
+ border-radius: 30px;
+ height: 50px;
+ background-color: white;
+ color: #192440;
+ border-color: black;
+ font-size: x-large;
+ border-width: 3px;
+    border: 3px solid black;
+
+}
+#buttomstar{
+    background-color: #00FFAD;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
 .clients{
     display: flex;
     justify-content: space-evenly;
     background-color: #ECEEEF;
     padding: 50px;
+    margin-top: 100px;
 }
 
 .contact{
     background-image: url('../assets/img/contact-bk.jpg');
+    background-repeat: no-repeat;
     color: #FFFFFF;
-    padding: 200px;
+    padding: 180px;
 }
 
 .contact h2{
     font-size: 50px;
-
 }
 
 .contact p{
@@ -195,7 +259,7 @@ flex-direction: column;
 
 .contact form{
     margin-left: 900px;
-    margin-top: -25vh;
+    margin-top: -40vh;
     font-size: 20px;
     color: #00FFAD;
 }
@@ -237,10 +301,23 @@ flex-direction: column;
 
 footer{
     background-color: #192440;
-    color:#FFFFFF;
-    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+#textfoot{
+    padding: 5vh;
 
-footer p{
-    margin-left: 170px;
+}
+#redes{
+max-height: 5vh;
+border-radius: 100%;
+margin-left: 2vh;
+
+}
+#imgfoot{
+    display: flex;
+   padding-right: 5vh;
+
 }
