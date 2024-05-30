@@ -8,6 +8,7 @@
 .header{
     background-image: url('../assets/img/banner-bk.jpg');
     height: 700px;
+    background-repeat: no-repeat;
 }
 
 
@@ -241,62 +242,88 @@ span{
     margin-top: 100px;
 }
 
-.contact{
+#contact{
     background-image: url('../assets/img/contact-bk.jpg');
     background-repeat: no-repeat;
-    color: #FFFFFF;
-    padding: 180px;
+    display: flex;
+    height: 74vh;
 }
-
-.contact h2{
-    font-size: 50px;
+#infocontact{
+    color: white;
+    padding: 70px;
+    margin-left: 100px;
+    max-width: 60vh;
 }
-
-.contact p{
-    font-size: 20px;
+#contactinfo{
+    margin-top: 30px;
 }
+#titlecontact{
+    font-size: 5vh;
+    padding-bottom: 20px;
+}
+#contactquestion{
+    display: flex;
+}
+#questone{
+display: flex;
+justify-content: center;
 
-
-.contact form{
-    margin-left: 900px;
-    margin-top: -40vh;
-    font-size: 20px;
+}
+#name{
+margin-top: 8vh;
+    padding: 2vh;
     color: #00FFAD;
+    font-size: 3vh;
+    width: 50vh;
+    margin-left: 50px;
 }
+#email{
+    margin-top: 8vh;
+    padding: 2vh;
+    color: #00FFAD;
+    font-size: 3vh;
+    width: 30vh;
+    margin-right: 10vh;
 
-.contact textarea{
-    width: 600px;
-    height: 100px;
-    border-radius: 5px;
-    margin-top: -10px;
-    border:2px solid #00FFAD;
-    background-color: transparent;
 }
+#nameque{
+    width: 40vh;
+    height: 3vh;
+    background-color: #00ffae00;
+    border-color: #00FFAD;
+    border-radius: 10px;
 
-.email{
-    height: 30px;
-    width: 600px;
-    border-radius: 5px;
-    background-color: transparent;
-    border:2px solid #00FFAD;
 }
+#emailque{
+    width: 40vh;
+    height: 3vh;
+    background-color: #00ffae00;
+    border-color: #00FFAD;
+    border-radius: 10px;
 
-.name{
-    border-radius: 5px;
-    height: 30px;
-    width: 600px;
-    margin-top: -10px;
-    border:2px solid #00FFAD;
-    background-color: transparent;
 }
-
-.info-button{
-    background-color: #00FFAD;
-    width: 600px;
-    height: 40px;
+#message{
+    margin-left: 8vh;
+    color: #00FFAD;
+    font-size: 3vh;
+    width: 10vh;
+}
+#messageque{
+    width: 94vh;
+    height: 15vh;
+    background-color: #00ffae00;
+    border-color: #00FFAD;
+    border-radius: 10px;
+    border-width: 2px;
+}
+#buttomcontact{
+    width: 94vh;
+    height: 5vh;
     border-radius: 30px;
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: 30px;
+    background-color: #00FFAD;
+    font-size: x-large;
+    border: #00FFAD;
 }
 
 footer{
@@ -321,3 +348,4 @@ margin-left: 2vh;
    padding-right: 5vh;
 
 }
+
